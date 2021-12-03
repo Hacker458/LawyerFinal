@@ -1,0 +1,260 @@
+@media (max-width: 1200px) {
+    .logo-text h1 {
+        font-size: 30px;
+    }
+    .lawyer b.title {
+        font-size: 30px;
+    }
+    .content-services figcaption {
+        font-size: 20px !important;
+    }
+    .content-services ul li {
+        font-size: 16px;
+    }
+    .quest {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+    .navbar-toggler {
+        display: none !important;
+    }
+    li.dropdown:hover>.dropdown-menu {
+        display: block;
+    }
+
+}
+
+@media (max-width: 993px) {
+    .navbar-toggler {
+        display: block;
+    }
+    .menu-nav {
+        padding: 0;
+        border: 0;
+    }
+    #navbar1 {
+        background-image: -webkit-linear-gradient(top, #403e3e, #333);
+        border: 1px solid #222;
+    }
+    .icon-bar li {
+        padding: 15px;
+        margin: 0;
+    }
+    .icon-bar li.active a {
+        text-decoration: underline;
+        border-radius: 0;
+    }
+    .icon-bar li b {
+        font-size: 15px;
+    }
+    .icon-bar li.active {
+        background: transparent;
+        box-shadow: none;
+    }
+    .icon-bar li:hover {
+        box-shadow: none;
+        border-radius: 0;
+        background-color: #272727 !important;
+    }
+    .navbar-nav .dropdown-menu {
+        position: relative;
+    }
+    .dropdown:hover .dropdown-menu {
+        background-color: transparent;
+    }
+    .dropdown-menu {
+        position: relative;
+        border-radius: 0;
+        background-color: #272727;
+        top: 15px;
+    }
+    .dropdown-menu a {
+        border: 0;
+        width: 100%;
+        font-size: 14px;
+        padding: 15px 20px;
+        color: #ccc !important;
+    }
+    a.dropdown-item {
+        background: url(../../Photo/icons.png) left -332px no-repeat;
+    }
+    .container {
+        max-width: 100%;
+    }
+    .logo img {
+        width: 80px;
+    }
+    .logo-text h1,
+    .lawyer b.title {
+        font-size: 25px;
+    }
+    .address {
+        font-size: 12px;
+    }
+    .footer-icon img {
+        width: 50px;
+    }
+    .copyright {
+        font-size: 12px;
+    }
+    .left-menu, .company
+    {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 762px) {
+    .lawyer {
+        position: static;
+        transform: none;
+    }
+    .address {
+        float: right;
+        border-top: 2px dashed #000;
+        border-bottom: 0;
+        position: static;
+        width: 100%;
+    }
+    .carousel-item img {
+        height: 500px;
+    }
+    main {
+        padding: 20px;
+    }
+    .item {
+        display: block;
+    }
+    .content-services figcaption
+    {
+        font-size: 35px !important;
+    }
+    .quest
+    {
+        font-size: 25px;
+    }
+    .content-services ul li
+    {
+        font-size: 20px;
+    }
+    .content-services img
+    {
+        display: block;
+        margin: 0 auto;
+        width: 85%;
+    }
+}
+
+@media (max-width: 570px) {
+    .background {
+        padding-bottom: 150px;
+    }
+    .logo-text {
+        padding: 6px;
+    }
+    .logo-text h1,
+    .lawyer b.title {
+        font-size: 19px;
+    }
+    .lawyer,
+    .address {
+        margin-top: 35px;
+    }
+    .logo img {
+        width: 60px;
+        padding: 0;
+    }
+    .carousel-item img {
+        height: 400px;
+    }
+    .carousel-indicators li {
+        width: 10px;
+        height: 10px;
+    }
+    .carousel-caption-center h3 {
+        font-size: 16px;
+    }
+    .photo-small {
+        float: unset !important;
+        width: 250px;
+        display: block;
+        margin: 10px auto;
+    }
+    .photo {
+        width: 100%;
+    }
+    .serv
+    {
+        font-size: 30px;
+    }
+    main p
+    {
+        line-height: 25px;
+    }
+    .company
+    {
+        font-size: 18px;
+        padding: 6px;
+    }
+ 
+}
+
+@media (max-width: 500px)
+{
+    .carousel-item img
+    {
+        height: 350px;
+    }
+    .content-services figcaption
+    {
+        font-size: 26px !important;
+    }
+    .quest
+    {
+        font-size: 20px;
+    }
+    .content-services ul li
+    {
+        font-size: 18px;
+    }
+    .content-services img
+    {
+        width: 100%;
+    }
+    main
+    {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 400px)
+{
+    .carousel-item img
+    {
+        height: 265px;
+    }
+    .carousel-caption-center
+    {
+        top: 35%;
+    }
+    .serv
+    {
+        font-size: 25px;
+    }
+    .company
+    {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 320px) {
+    body {
+        min-width: 500px;
+    }
+}
